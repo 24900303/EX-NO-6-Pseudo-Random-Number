@@ -7,13 +7,13 @@ Implementation of Pseudorandom Number Generation Using Standard library
 
 ## ALGORITHM:
 
-1)Prompt the user for the number of random numbers to generate.</br>
-2)Request the user to input the minimum and maximum values for the random number range.</br>
-3)Seed the random number generator using the current time to ensure different results on each run.</br>
-4)For the specified number of times, generate a random number:</br>
+1) Prompt the user for the number of random numbers to generate.</br>
+2) Request the user to input the minimum and maximum values for the random number range.</br>
+3) Seed the random number generator using the current time to ensure different results on each run.</br>
+4) For the specified number of times, generate a random number:</br>
     Use the formula rand() % (max - min + 1) + min to ensure the number falls within the specified range.</br>
-5)Print each generated random number.</br>
-6)End the program.</br>
+5) Print each generated random number.</br>
+6) End the program.</br>
 
 ## Program Code:
 
